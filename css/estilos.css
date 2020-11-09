@@ -9,7 +9,7 @@
 *Gama de Colores
 */
 :root {
-  --background: #d63031;
+  --background: #1d0a65;
   --font: #dfe6e9;
   --Active: #ffffff3d; }
 
@@ -66,22 +66,29 @@
 
 .btn-primary {
   background-color: #1e0a658e;
-  border-color: #1d0a65;
+  border-color: var(--background);
   -webkit-transition: all .5s ease;
   transition: all .5s ease; }
 
 .btn-primary:hover {
   background-color: #1e0a65bb;
-  border-color: #1d0a65; }
+  border-color: var(--background); }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   background-color: #1e0a65de;
-  border-color: #1d0a65; }
+  border-color: var(--background); }
 
 .btn-primary:focus, .btn-primary.focus {
   background-color: #1e0a65;
-  border-color: #1d0a65;
+  border-color: var(--background);
   -webkit-box-shadow: 0 0 0 0.2rem rgba(6, 8, 116, 0.705);
           box-shadow: 0 0 0 0.2rem rgba(6, 8, 116, 0.705); }
+
+/*
+*estilos para clase quienes somos
+*/
+.quienes-somos {
+  background: var(--background);
+  color: white; }
 
 /*# sourceMappingURL=estilos.css.map */
